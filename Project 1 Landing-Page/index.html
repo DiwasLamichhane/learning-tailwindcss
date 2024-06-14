@@ -11,30 +11,51 @@
     <link rel="stylesheet" href="style.css">
 
     <title>Portfolio-Template</title>
+
+    <!-- Adding Google Fonts "Poppins" -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <div class="h-screen w-screen font-poppins bg-slate-800 flex">
-        <div class="h-full w-1/2 bg-white">
+    <!-- Navigation Section -->
+    <nav class="flex justify-between pl-2 pt-2 bg-orange-100">
+        <div class="">
+            <img src="./assets/logo.png" class="h-10 " alt="">
+        </div>
 
-            <h1 class="text-4xl">Hi, I'm <span class="text-orange-400">Diwas</span></h1>
+        <div class="flex gap-10 p-3">
+            <h1 class="text-red-700">HOME</h1>
+            <h1>ABOUT</h1>
+            <h1>SKILLS</h1>
+            <h1>PROJECTS</h1>
+            <h1>CONTACT</h1>
+        </div>
+    </nav>
 
-            <h4 class="text-xl">Front-end Developer / Web Designer</h4>
+    <div class="h-screen w-screen bg-slate-800 flex">
+        <div class="h-full w-1/2 bg-orange-100 content-center">
+            <div class="m-16">
+                <h1 class="text-4xl mb-2">Hi, I'm <span class="text-orange-400">Diwas</span></h1>
+                <h4 class="text-xl mb-2">Front-end Developer / Web Designer</h4>
 
-            <span>
-                <!-- Facebook  -->
-                <a href="https://www.facebook.com/diwasssss"><box-icon class="fill-orange-400" name='facebook-circle' type='logo' ></box-icon></a>
-                <!-- Instagram -->
-                <a href="https://www.instagram.com/diwasss_/"><box-icon class="fill-orange-400" name='instagram' type='logo' ></box-icon></a>
-                <!-- LinkedIn -->
-                <a href="https://www.linkedin.com/in/diwas-lamichhane/"><box-icon class="fill-orange-400" name='linkedin' type='logo' ></box-icon></a>
-                <!-- Github -->
-                <a href="https://github.com/DiwasLamichhane"><box-icon class="fill-orange-400" name='github' type='logo' ></box-icon></a>
-            </span>
+                <span class="">
+                    <!-- Facebook  -->
+                    <a href="https://www.facebook.com/diwasssss" class="m-1"><box-icon class="fill-orange-400" name='facebook-circle' type='logo' ></box-icon></a>
+                    <!-- Instagram -->
+                    <a href="https://www.instagram.com/diwasss_/" class="m-1"><box-icon class="fill-orange-400" name='instagram' type='logo' ></box-icon></a>
+                    <!-- LinkedIn -->
+                    <a href="https://www.linkedin.com/in/diwas-lamichhane/" class="m-1"><box-icon class="fill-orange-400" name='linkedin' type='logo' ></box-icon></a>
+                    <!-- Github -->
+                    <a href="https://github.com/DiwasLamichhane" class="m-1"><box-icon class="fill-orange-400" name='github' type='logo' ></box-icon></a>
+                </span>
 
-            <button class="bg-orange-400 text-white h-9 w-36 gap-2 flex items-center justify-center rounded-3xl">Contact Me<box-icon class="fill-white" name='send' type='solid' ></box-icon></button>
+                <button class="bg-orange-400 mt-1 text-white h-9 w-36 gap-2 flex items-center justify-center rounded-3xl">Contact Me<box-icon class="fill-white" name='send' type='solid' ></box-icon></button>
+            </div>
         </div>
         <div class="h-full w-1/2 flex items-center justify-center bg-orange-100">
-            <img class="h-1/2 w-auto object-cover" src="./assets/Profile.png" alt="">
+                <img class="h-1/2 w-auto object-cover" src="./assets/Profile.png" alt="">
         </div>
     </div>
 </body>
